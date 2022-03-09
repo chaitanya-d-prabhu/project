@@ -1,0 +1,10 @@
+[09-Mar-2022 08:53:09 UTC] PHP Warning:  require_once(/Applications/XAMPP/xamppfiles/htdocs/project/wp-content/themes/twentytwentyone/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/project/wp-content/themes/twentytwentyone-child/functions.php on line 2
+[09-Mar-2022 08:53:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/XAMPP/xamppfiles/htdocs/project/wp-content/themes/twentytwentyone/class-wp-bootstrap-navwalker.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') in /Applications/XAMPP/xamppfiles/htdocs/project/wp-content/themes/twentytwentyone-child/functions.php:2
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/project/wp-settings.php(555): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/project/wp-config.php(101): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/project/wp-load.php(50): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/project/wp-blog-header.php(13): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/project/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/project/wp-content/themes/twentytwentyone-child/functions.php on line 2
